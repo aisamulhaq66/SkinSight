@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Dataset (too large / should be downloaded separately, not committed)
+HAM10000/
+*.csv
+
+# Keep the final model, but ignore intermediate checkpoints if you retrain
+best_model_*.keras
